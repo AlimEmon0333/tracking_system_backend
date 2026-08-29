@@ -1,6 +1,6 @@
-import Sales from "../models/Sales.js";
-import Stock from "../models/Stock.js";
-import Party from "../models/Party.js";
+import Sales from "../models/sales.js";
+import Stock from "../models/stock.js";
+import Party from "../models/party.js";
 import Payment from "../models/Payment.js";
 import generateBillNumber from "../utils/generateBillNumber.js";
 
@@ -242,4 +242,4 @@ export const deleteSale = async (req, res) => {
       message: error.message,
     });
   }
-};
+};

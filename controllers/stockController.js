@@ -1,5 +1,5 @@
-import Stock from "../models/Stock.js";
-import Party from "../models/Party.js";
+import Stock from "../models/stock.js";
+import Party from "../models/party.js";
 import Payment from "../models/Payment.js";
 import generateReceiptNumber from "../utils/generateReciptNumber.js";
 

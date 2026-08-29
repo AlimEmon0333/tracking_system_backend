@@ -1,7 +1,7 @@
 import Payment from "../models/Payment.js";
-import Sales from "../models/Sales.js";
-import Stock from "../models/Stock.js";
-import Party from "../models/Party.js";
+import Sales from "../models/sales.js";
+import Stock from "../models/stock.js";
+import Party from "../models/party.js";
 import BankAccount from "../models/BankAccount.js";
 import BankTransaction from "../models/BankTransaction.js";
 

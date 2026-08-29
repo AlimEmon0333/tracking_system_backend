@@ -1,4 +1,4 @@
-import Counter from "../models/Counter.js";
+import Counter from "../models/counter.js";
 
 const generateBillNumber = async () => {
   const counter = await Counter.findOneAndUpdate(
